@@ -197,7 +197,7 @@ p, h1,h2,h3 {
         margin: 0 auto;
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -491,16 +491,22 @@ margin-bottom: 16px;
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-    fill: #f4f4fd;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-svg {
+    fill: #f4f4fd;
+}
 
 
-.link-svg:hover,
+.link-svg:hover {
+    background-color: #31d0aa;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .link-svg:focus {
     background-color: #31d0aa;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
