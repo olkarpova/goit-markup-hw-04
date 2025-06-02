@@ -477,8 +477,12 @@ margin-bottom: 16px;
 .container.thumb-footer {
     display: flex;
     margin: 0 auto;
-    gap: 120px;
+    /* gap: 120px; */
     align-items: baseline
+}
+
+.info-footer {
+    margin-right: 120px;
 }
 .soc-footer .icons-team {
     gap: 16px;
